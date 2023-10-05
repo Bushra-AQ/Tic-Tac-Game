@@ -1,0 +1,40 @@
+.board {
+  display: inline-block;
+  border: 2px solid #333;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #9e9c9c;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  cursor: pointer;
+}
+
+/* .winning-square {
+  background: #6ac045;
+  color: #fff;
+} */
+
+.resetButton
+{
+    display:flex ;
+    margin-left:43% ;
+    margin-top:10%;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 25px;
+    padding: 15px ;
+    cursor: pointer;
+}
